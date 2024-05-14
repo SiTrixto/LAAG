@@ -1,0 +1,74 @@
+body{
+    background-color: #ffdd95;
+}
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        font-style: bold;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: underline; 
+        text-indent: 30px;
+        text-transform: uppercase ;
+        color: black ;
+        letter-spacing: normal;
+    }
+    .image-button-1 {
+        border: none;
+        background: none;
+        cursor: pointer;
+        }
+        .move-image-1 {
+        position: absolute;
+        top: 9px; 
+        left: 10px; 
+        }
+
+        .image-button-1 img {
+        width: 65%;
+        height: auto;
+        }
+        .move-image-2 {
+          position: relative; 
+          top: 0px;
+          left: 0px;
+          }
+
+          #myImage2 {
+            width: 800px;
+            height: 1000px;
+          }
+          .move-image-7 {
+            position:absolute;
+            top: 0px;
+            left: 0px;
+           }
+
+           .move-image-3 {
+            position:absolute;
+            top: 200px;
+            left: 0px;
+           }
+
+           #myImage3 {
+            width: 50%;
+            height: auto ;
+          }
+
+
+
+          .image-button-4 {
+            border: none;
+            background: none;
+            cursor: pointer;
+            }
+            .move-image-4 {
+            position: absolute;
+            bottom:1px ; 
+            left: 0px; 
+            }
+
+            #myImage4 {
+              width: 25%;
+              height: auto ;
+            }

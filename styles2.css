@@ -1,0 +1,54 @@
+body{
+    background-color: #FFDD95;
+}
+
+h1{
+    color: #FF9843;
+}
+
+
+.image{
+    width: 70%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0%;
+}
+
+.image-button img {
+    width: 65%;
+    height: auto;
+}
+
+.move-image-2{
+    width: 85%;
+    height: auto;
+    position: absolute;
+    top: 10px; 
+}
+
+.moved-image-3{
+    width: 65%;
+    height: auto;
+    right: 5px;
+    top: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "image1 image2";
+}
+
+.image1 {
+    grid-area: image1;
+}

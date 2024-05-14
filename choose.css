@@ -1,0 +1,137 @@
+body{
+    background-color: #FFDD95;
+}
+
+  #image {
+    width: 50%; /* adjust the value to make the image smaller or larger */
+    height: auto; /* this will maintain the aspect ratio of the image */
+  }
+
+.image-1{
+    grid-area: image1;
+}
+
+
+
+.image-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0%;
+    width: 140px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.button-container-1 {
+    display: flex;
+    position: absolute;
+    top: 450px;
+    right: 1500px;
+  }
+  
+  .button-container-1 img {
+    display: block;
+    width:  200px; /* adjust the width as needed */
+    height: auto;
+    top: 430px;
+  }
+  
+
+.button-container-2{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    left: -160px;
+    justify-content: center;
+}
+
+  .button-container-2 img{
+    display: block;
+    width: 50%; /* adjust the width as needed */
+    height: auto;
+    top: 60px;
+    margin-left: 480px;
+  }
+
+  .button-container-3{
+    position: absolute;
+    top: 250px;
+    right: 0;
+    left: -160px;
+    justify-content: center;
+}
+
+  .button-container-3 img{
+    display: block;
+    width: 50%; /* adjst the width as needed */
+    height: auto;
+    top: 230px;
+    margin-left: 600px;
+  }
+  
+.container {
+    position: relative;
+    /* other styles */
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 200px; /* adjust the width as needed */
+    height: auto;
+    margin-top: 20%;
+    margin-right: 5px;
+  }
+
+  .image-container-2{
+    position: absolute;
+    top: -160px;
+    right: 0;
+    justify-content: center;
+  }
+
+  .image-container-2 img {
+    display: block;
+    width: 80%; /* adjust the width as needed */
+    height: auto;
+    top: 190px;
+    left: 50%;
+    z-index: -1;
+  }
+
+  
+
+  #top-image {
+    position: absolute;
+    top: -210px;
+    left: 150px;
+    width: 20%;
+    height: auto;
+    margin-right: 15%;
+  }
+  
+.background-image{
+    position: absolute;
+    top: 10px; 
+}
+
+.image-container-4{
+    position: absolute;
+    top: 145px;
+    right: 0;
+    justify-content: center;
+}
+
+.image-container-4 img {
+    display: block;
+    width: 7%; /* adjust the width as needed */
+    height: auto;
+    top: 115px;
+    margin-left: 35%;
+}
